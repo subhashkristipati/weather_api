@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.city-select {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #f2f2f2;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 10%;
+    /* margin-right: 5%; */
+}
+
+.city-select:focus {
+    outline: none;
+    border-color: #1dd884;
+}
+
+.city-select option {
+    background-color: #fff;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(136, 245, 235);
+    background: linear-gradient(90deg, rgba(136, 245, 235, 1) 21%, rgba(0, 191, 229, 1) 100%);
+    width: 100%;
+}
+
+.endelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* .entercity {
+    margin-right: 1%;
+} */
+
+
+/* .home {
+    margin-right: 77%;
+} */
