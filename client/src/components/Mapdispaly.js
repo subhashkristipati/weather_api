@@ -13,7 +13,7 @@ const Mapdisplay = (props) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`http://localhost:9999/weather/${props.city}`);
+                const response = await fetch(`https://weatherapiserver.onrender.com/weather/${props.city}`);
                 const data = await response.json();
                 setWeatherData(data);
                 setCenter([data.latitude, data.longitude]);

@@ -57,7 +57,7 @@ app.get('/weather/:city', (req, res) => {
     }
 });
 
-
-app.listen(9999, () => {
-    console.log('Server started on port 9999');
+const PORT = process.env.PORT || 9999
+app.listen(PORT, () => {
+    console.log('Server listening on http://localhost:' + PORT);
 });
